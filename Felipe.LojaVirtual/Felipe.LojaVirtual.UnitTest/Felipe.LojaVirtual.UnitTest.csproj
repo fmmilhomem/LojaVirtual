@@ -82,9 +82,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Felipe.LojaVirtual.Domino\Felipe.LojaVirtual.Domino.csproj">
+    <ProjectReference Include="..\Felipe.LojaVirtual.Domino\Felipe.LojaVirtual.Dominio.csproj">
       <Project>{899a9d1c-89fa-4f44-8178-67f0fc40b2df}</Project>
-      <Name>Felipe.LojaVirtual.Domino</Name>
+      <Name>Felipe.LojaVirtual.Dominio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Felipe.LojaVirtual.Web\Felipe.LojaVirtual.Web.csproj">
       <Project>{aaf0b26b-c8ef-4318-8d0c-ba4b109867a9}</Project>

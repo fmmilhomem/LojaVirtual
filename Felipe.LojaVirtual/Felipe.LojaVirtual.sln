@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felipe.LojaVirtual.Domino", "Felipe.LojaVirtual.Domino\Felipe.LojaVirtual.Domino.csproj", "{899A9D1C-89FA-4F44-8178-67F0FC40B2DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felipe.LojaVirtual.Dominio", "Felipe.LojaVirtual.Domino\Felipe.LojaVirtual.Dominio.csproj", "{899A9D1C-89FA-4F44-8178-67F0FC40B2DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felipe.LojaVirtual.Web", "Felipe.LojaVirtual.Web\Felipe.LojaVirtual.Web.csproj", "{AAF0B26B-C8EF-4318-8D0C-BA4B109867A9}"
 EndProject
