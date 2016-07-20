@@ -14,6 +14,8 @@ namespace Felipe.LojaVirtual.Domino.Repositorio
         public IEnumerable<Produto> Produtos
         {
             get { return _context.Produtos; }
+
+
         }
     }
 }
