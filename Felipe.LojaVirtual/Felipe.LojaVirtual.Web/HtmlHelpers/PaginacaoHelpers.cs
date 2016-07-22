@@ -6,7 +6,11 @@ using System.Web;
 using System.Web.Mvc;
 using Felipe.LojaVirtual.Web.Models;
 
-
+/// <summary>
+/// Namespace contém as minhas classes
+/// O Namespace pode conter 1 ou várias classes
+/// Para que as classes de um namescape possam "enxergar" outras classes de namespace distintos é necessario utilizar using ou adicionar referencias;
+/// </summary>
 namespace Felipe.LojaVirtual.Web.HtmlHelpers
 {
     public static class PaginacaoHelpers
@@ -15,7 +19,7 @@ namespace Felipe.LojaVirtual.Web.HtmlHelpers
         {
             StringBuilder resultado = new StringBuilder();
 
-            for (int i = 1; i < paginacao.TotalPagina; i++)
+            for (int i = 1; i <= paginacao.TotalPagina; i++)
             {
                 TagBuilder tag = new TagBuilder("a");
                 tag.MergeAttribute("href", paginaUrl(i));
